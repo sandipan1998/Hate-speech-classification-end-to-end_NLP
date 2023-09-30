@@ -6,3 +6,45 @@ Hate speech classification is the process of identifying and categoring speech o
 
 ## Solutions:
    We implemented one machine learning models that have been trained on annotated data sets to recognize patterns inlanguage and determine the level of hate speech present in given piece of text. The goal of hate speech classification is to reduce the spread of hate speech and promote more positive and inclusive online communities.
+
+
+### creating conda environment
+```
+conda create -p venv python==3.11.4 -y
+```
+```
+conda activate venv/
+```
+OR 
+```
+conda activate venv
+```
+
+```
+pip install -r requirements.txt
+```
+
+To Add files to git
+```
+git add .
+```
+
+OR
+```
+git add <file_name>
+```
+To create version/commit all changes by git
+```
+git commit -m "message"
+```
+
+To send version/changes to github
+```
+git push origin main
+```
+
+# Gcloud cli
+```
+https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe 
+
+```
